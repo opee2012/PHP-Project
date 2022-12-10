@@ -27,7 +27,7 @@ enter in <?php echo date("F", strtotime("last month")); ?>'s balance and then we
             <TD><label for="last_month">Enter <?php echo date("F", strtotime("last month")); ?>'s Balance:</label></TD>
             <TD><input type="number" step="0.01" min="0" id="last_month" name="last_month"></TD>
         </TR>
-        </TR><TR>
+        <TR>
             <TD><input type="submit" value="Submit">
                 <input type="reset"></TD>
         </TR>
